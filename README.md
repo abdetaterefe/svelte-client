@@ -1,38 +1,40 @@
-# create-svelte
+# svelte-client
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a shopping website built with SvelteKit and "REAL_SHOP" with Chapa as a payment gateway. It allows users to browse a variety of products, add them to their cart, and checkout using Chapa.
 
-## Creating a project
+## About REAL_SHOP
 
-If you're seeing this, you've probably already done this step. Congrats!
+REAL_SHOP is a shopping management website where you can manage products and orders. You can create, edit, and delete products, as well as track orders and manage inventory. REAL_SHOP is a powerful tool that can help you streamline your business and improve your customer service.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+> It is now on local development.
+>> REAL_SHOP cooming soon... May be...
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Installation
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+# Clone the repository
+git clone https://github.com/abdetaterefe/svelte_client.git
 ```
-
-## Building
-
-To create a production version of your app:
 
 ```bash
-npm run build
+# Install the dependencies
+cd svelte_client
+npm install
 ```
 
-You can preview the production build with `npm run preview`.
+```bash
+# Setup Environment variables
+VITE_SVELTE_CLIENT_URL=http://127.0.0.1:5173
+VITE_REAL_SHOP_URL=http://localhost:3000
+VITE_REAL_SHOP_KEY=<your_shop_key>
+VITE_CHAPUBK_TEST=<your_chapa_apis>
+VITE_CHASECK_TEST=<your_chapa_apis>
+```
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Usage
+
+To use the website, simply browse the products, add the ones you want to your cart, and checkout using Chapa. To manage products and orders, log in to the "REAL_SHOP" admin panel.
+
+## Contact
+
+If you have any questions or feedback, please feel free to contact me [here](https:t.me/abdetaterefe).
