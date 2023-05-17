@@ -2,6 +2,10 @@
 
 This is a shopping website built with SvelteKit and "REAL_SHOP" with Chapa as a payment gateway. It allows users to browse a variety of products, add them to their cart, and checkout using Chapa.
 
+![Screenshot 2023-05-17 8 42 45 PM](https://github.com/abdetaterefe/svelte-client/assets/59355292/ff2421e7-6e1f-4425-9c52-75e6e52675fe)
+![Screenshot 2023-05-17 8 44 16 PM](https://github.com/abdetaterefe/svelte-client/assets/59355292/c3f238cb-5b9c-4b9e-be0b-d64216579e76)
+![Screenshot 2023-05-17 8 42 22 PM](https://github.com/abdetaterefe/svelte-client/assets/59355292/a6437c81-809c-400c-b18f-e2e072331b0e)
+
 ## About REAL_SHOP
 
 REAL_SHOP is a shopping management website where you can manage products and orders. You can create, edit, and delete products, as well as track orders and manage inventory. REAL_SHOP is a powerful tool that can help you streamline your business and improve your customer service.
@@ -15,6 +19,7 @@ REAL_SHOP is a shopping management website where you can manage products and ord
 # Clone the repository
 git clone https://github.com/abdetaterefe/svelte_client.git
 ```
+
 
 ```bash
 # Install the dependencies
